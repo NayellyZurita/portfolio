@@ -11,7 +11,7 @@ export default function About() {
   return (
     <motion.section
       ref={ref}
-      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
+      className="mb-28 max-w-[45rem] text-center leading-9 sm:mb-40 scroll-mt-28 text-lg"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
@@ -19,30 +19,30 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+        After earning  my degree in{" "}
+        <span className="font-large">Economics</span>, I decided to pursue my
+        passion for data science. I'm pursuing a degree in Data Science and {" "}
+        <span className="font-large">my favorite part of</span>{" "}
+        <span className="italic">working with data is transforming it into </span>
+        solutions for problem-solving situations. <span className="underline">Data</span> has
+        the potential to make a significant impact on society.
+        {" "}
+        <span className="font-large">
+        Throughout my journey, I have gained proficiency in various programming languages,
+         including Java, Python, and SQL Server, as well as in data visualization tools like Tableau.
+  
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        I am seeking internship opportunities in data science{" "}
+        <span className="font-large">to develop my skills further</span> a and 
+        apply my knowledge professionally.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        <span className="italic">When I'm not working on projects</span>, I enjoy spending
+         time outdoors. I like running, hiking,  {" "}
+        <span className="font-large">and learning new sports.</span>  I also value time 
+        with my {" "}
+        <span className="font-large"> family </span> and friends.
       </p>
     </motion.section>
   );

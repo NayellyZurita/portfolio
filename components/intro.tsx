@@ -31,13 +31,11 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=368&h=368&q=100"
-              alt="Ricardo portrait"
-              width="192"
-              height="192"
-              quality="95"
-              priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              src="/profilenaye.png"
+              alt="Nayelly portrait"
+              width="200"
+              height="200"
+              className="h-25 w-25 rounded-full object-cover border-[0.20rem] border-white shadow-xl"
             />
           </motion.div>
 
@@ -52,25 +50,24 @@ export default function Intro() {
               duration: 0.7,
             }}
           >
-            👋
+
           </motion.span>
         </div>
       </div>
 
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        className="mb-10 mt-4 px-5 text-3/2 font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Ricardo.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">8 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        <span className="font">Hello, I am Nayelly Zurita!</span> A {" "}
+        <span className="font-bold">data science, </span> with{" "}
+        <span className="font-bold"> a passion for </span> turning raw data into meaningful
+         <span className="font-bold"> insights and actionable results.</span>
       </motion.h1>
 
       <motion.div
-        className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
+        className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
