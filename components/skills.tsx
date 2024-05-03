@@ -46,13 +46,12 @@ export default function Skills() {
           >
             <Image
               src={skill.image}
-              alt={skill.name}
-              width="120"
-              height="120"
-              quality="95"
-              className="rounded-full"
+              alt="skills I have"
+              width="150"
+              height="150"
+              className="rounded-xl bg-center"
             />
-            <span className="ml-2">{skill.name}</span>
+            <span className="ml-2"></span>
           </motion.li>
         ))}
       </ul>

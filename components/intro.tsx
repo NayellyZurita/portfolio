@@ -60,10 +60,10 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font">Hello, I am Nayelly Zurita.</span> A {" "}
-        <span className="font-bold">data science, </span> with  a passion for{" "}
+        <span className="font">Hello, I'm Nayelly Zurita,</span> a {" "}
+        <span className="font-bold">data science </span> who loves {" "}
         <span className="font-bold"> turning raw data </span>  into meaningful
-         <span className="font-bold"> insights and </span>actionable results.
+         <span className="font-bold"> insights </span> and actionable results.
       </motion.h1>
 
       <motion.div
