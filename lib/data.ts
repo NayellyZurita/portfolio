@@ -68,7 +68,7 @@ export const projectsData = [
       " This projects is still in progress.....",
     tags: ["Phyton", "pandas", "NumPy", "Seaborn", "Scikit-learn"],
     image: FinanceImg,
-  
+    href:"",
   },
     
 ] as const;
