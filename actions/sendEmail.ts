@@ -10,6 +10,7 @@ export const sendEmail = async (formData: FormData) => {
   const senderEmail = formData.get("senderEmail");
   const message = formData.get("message");
 
+  
   // simple server-side validation
   if (!validateString(senderEmail, 500)) {
     return {
