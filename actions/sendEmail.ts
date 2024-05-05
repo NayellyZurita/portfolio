@@ -36,9 +36,7 @@ export const sendEmail = async (formData: FormData) => {
         senderEmail: senderEmail,
       }),
     });
-    console.log("Email sent successfully:", data); // Log data after sending
   } catch (error: unknown) {
-    console.error("Error sending email:", error); // Log errors for debugging
     return {
       error: getErrorMessage(error),
     };
