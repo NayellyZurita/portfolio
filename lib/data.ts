@@ -8,7 +8,7 @@ import TableauImg from "@/public/Tableau.png";
 import PythonImg from "@/public/Python.png";
 import SQLImg from "@/public/SQL.png";
 import FinanceImg from "@/public/finance.jpg";
-
+import RealestateImg from "@/public/realestate.jpg";
 
 export const links = [
   {
@@ -53,6 +53,15 @@ export const educationData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Real State with object-oriented programming",
+    href:"https://github.com/NayellyZurita/real-estate.git",
+    description:
+      " This project uses Java and object-oriented programming. It is a simple real estate program that allows you to add, delete, and bid for properties.",
+    tags: ["Java", "Object-oriented desing", "Code structure", " Testing",],
+    image: RealestateImg,
+   
+  },
   {
     title: "Identifying factors influencing running pace",
     href:"https://public.tableau.com/views/Runningpaceproject/Dashboard1?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link",
