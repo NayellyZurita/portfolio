@@ -62,16 +62,7 @@ export const projectsData = [
     image: RealestateImg,
    
   },
-  {
-    title: "Identifying factors influencing running pace",
-    href:"https://public.tableau.com/views/Runningpaceproject/Dashboard1?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link",
-    description:
-      " I used Tableau to create a dashboard that shows the factors that influence running pace.",
-    tags: ["Tableau", "SQL", " statistical analysis",],
-    image: StravaImg,
-    
-   
-  },
+
   {
     title: "Financial Risk Analysis",
     description:
