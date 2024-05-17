@@ -1,6 +1,5 @@
 import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
-import StravaImg from "@/public/Strava.png";
 import JavaImg from "@/public/java.png";
 import ExcelImg from "@/public/excel.png";
 import JavaScriptImg from "@/public/javaScript.png";
