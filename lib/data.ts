@@ -8,6 +8,8 @@ import PythonImg from "@/public/Python.png";
 import SQLImg from "@/public/SQL.png";
 import FinanceImg from "@/public/finance.jpg";
 import RealestateImg from "@/public/realestate.jpg";
+import BusinessImg from "@/public/Business.jpg";
+
 
 export const links = [
   {
@@ -62,6 +64,15 @@ export const projectsData = [
    
   },
 
+  {
+    title: "Machine Learning: Using Python to Find Your Next Business Opportunity",
+    href:"https://colab.research.google.com/drive/1cyiIFfmPMdo1bJzvEjJfDZsK3nVXQ259?usp=sharing",
+    description:
+      " This project uses Python and machine learning to find the best business opportunity.",
+    tags: ["Python", "pandas", "NumPy", " matplotlib",],
+    image: BusinessImg,
+   
+  },
   {
     title: "Financial Risk Analysis",
     description:
