@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef } from "react";
+import { useState, useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
@@ -24,6 +24,12 @@ export default function Project({
   const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
   const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
 
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const toggleExpanded = () => {
+    setIsExpanded(!isExpanded);
+  };
+
   return (
     <motion.div
       ref={ref}
@@ -33,14 +39,22 @@ export default function Project({
       }}
       className="group mb-3 sm:mb-8 last:mb-0"
     >
-      <section className="bg-gray-100 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem] hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
-        <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[60%] flex flex-col h-full sm:group-even:ml-[18rem]">
+      <section className="bg-gray-100 max-w-[60rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-auto hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
+        <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[70%] flex flex-col h-full sm:group-even:ml-[18rem] overflow-auto">
         <a href={href} target="_blank" rel="noopener noreferrer">
           <h3 className="text-2xl font-semibold underline">{title}</h3>
           </a>
-          <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
-            {description}
-          </p>
+          <div
+          className= {`mt-2 leading-relaxed text-gray-700 dark:text-white/70 ${isExpanded ? "" : "truncate"}`} style={{maxHeight: isExpanded ? "none" : "3.9rem"}} 
+          
+          dangerouslySetInnerHTML={{ __html: description }}
+          />
+          <button
+          className="mt-2 text-blue-500 hover:underline"
+          onClick={toggleExpanded}  
+          >
+            {isExpanded ? "Read less" : "Read more"}
+          </button>
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
             {tags.map((tag, index) => (
               <li

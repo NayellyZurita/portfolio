@@ -67,8 +67,12 @@ export const projectsData = [
   {
     title: "Machine Learning: Using Python to Find Your Next Business Opportunity",
     href:"https://colab.research.google.com/drive/1cyiIFfmPMdo1bJzvEjJfDZsK3nVXQ259?usp=sharing",
-    description:
-      " This project uses Python and machine learning to find the best business opportunity.",
+    description:`
+    <p>This project uses Python and machine learning to analyze data and find the best business opportunities.</p>
+      <p><strong>Introduction:</strong></p>
+      <p>This project utilizes machine learning techniques in Python to identify potential business opportunities in the coffee shop industry. The goal is to analyze data on coffee shop locations, population demographics, and other relevant factors to uncover areas with high business potential for aspiring entrepreneurs.</p>
+      `,
+    
     tags: ["Python", "pandas", "NumPy", " matplotlib",],
     image: BusinessImg,
    
