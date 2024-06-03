@@ -66,22 +66,29 @@ export const projectsData = [
 
   {
     title: "Machine Learning: Using Python to Find Your Next Business Opportunity",
-    href:"https://colab.research.google.com/drive/1cyiIFfmPMdo1bJzvEjJfDZsK3nVXQ259?usp=sharing",
+    href:"https://colab.research.google.com/drive/1U9Niz6zizAta-QLRYenXu3naXa0ccY-d?usp=sharing",
     description:`
-    <p>This project uses Python and machine learning to analyze data and find the best business opportunities.</p>
-      <p><strong>Introduction:</strong></p>
-      <p>This project utilizes machine learning techniques in Python to identify potential business opportunities in the coffee shop industry. The goal is to analyze data on coffee shop locations, population demographics, and other relevant factors to uncover areas with high business potential for aspiring entrepreneurs.</p>
+    <p>In today's competitive business environment, identifying the right location for a new venture is crucial to its success. This project leverages the power of machine learning to analyze market data and uncover the top five places to establish a coffee business in California. Additionally, it predicts the price of a latte based on demographic data from these prime locations. This project provides a comprehensive approach to strategic business planning by integrating advanced data analysis and machine learning techniques.</p>
+    <p>Key aspects of this project include:</p>
+    <ul>
+        <li><strong>Data Processing and Scaling:</strong> Cleaning and preparing the data to ensure accuracy and consistency.</li>
+        <li><strong>Model Selection:</strong> Evaluating different machine learning models to determine the best fit for the data.</li>
+        <li><strong>Hyperparameter Tuning:</strong> Optimizing model parameters to improve performance.</li>
+        <li><strong>Linear Regression:</strong> Analyzing the relationship between demographic variables and latte prices.</li>
+        <li><strong>Random Forest and Gradient Boosting:</strong> Using ensemble learning methods to enhance prediction accuracy.</li>
+        <li><strong>Model Evaluation:</strong> Assessing model performance to ensure reliable predictions.</li>
+    </ul>
       `,
     
-    tags: ["Python", "pandas", "NumPy", " matplotlib",],
+    tags: ["Python", "pandas", "NumPy", " matplotlib", "Scikit-learn"],
     image: BusinessImg,
    
   },
   {
-    title: "Financial Risk Analysis",
+    title: "Analyzing ZION stock",
     description:
       " This projects is still in progress.....",
-    tags: ["Phyton", "pandas", "NumPy", "Seaborn", "Scikit-learn"],
+    tags: ["Phyton", "APIs", "pandas", "NumPy", "Seaborn"],
     image: FinanceImg,
     href:"",
   },
