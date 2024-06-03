@@ -45,7 +45,7 @@ export default function Project({
           <h3 className="text-2xl font-semibold underline">{title}</h3>
           </a>
           <div
-          className= {`mt-2 leading-relaxed text-gray-700 dark:text-white/70 ${isExpanded ? "" : "truncate"}`} style={{maxHeight: isExpanded ? "none" : "3.9rem"}} 
+          className= {`mt-2 leading-relaxed text-gray-700 dark:text-white/80 ${isExpanded ? "" : "truncate"}`} style={{maxHeight: isExpanded ? "none" : "3.9rem"}} 
           
           dangerouslySetInnerHTML={{ __html: description }}
           />

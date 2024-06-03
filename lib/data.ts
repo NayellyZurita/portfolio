@@ -85,9 +85,11 @@ export const projectsData = [
    
   },
   {
-    title: "Analyzing ZION stock",
-    description:
-      " This projects is still in progress.....",
+    title: "Predicting Stock Prices with Machine Learning",
+    description: `
+    <p><strong>Summary</strong></p>
+    <p>I explored the fusion of data science and finance in this project, where I used advanced machine-learning techniques to predict stock prices. Through meticulous data collection, cleaning, and analysis, I uncover valuable insights hidden within historical stock price data. By leveraging machine learning models such as ARIMA, LSTM, and linear regression, I seek to forecast future stock prices with accuracy and precision. This educational project demonstrates data science methodologies applied to financial data. Please note that the insights presented are for educational purposes only and should not be construed as financial advice.</p>
+    `,
     tags: ["Phyton", "APIs", "pandas", "NumPy", "Seaborn"],
     image: FinanceImg,
     href:"",
