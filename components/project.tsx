@@ -39,13 +39,13 @@ export default function Project({
       }}
       className="group mb-3 sm:mb-8 last:mb-0"
     >
-      <section className="bg-gray-100 max-w-[60rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-auto hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
+      <section className="bg-gray-100 max-w-[45rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-40 hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white text-center dark:bg-white/10 dark:hover:bg-white/20">
         <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[70%] flex flex-col h-full sm:group-even:ml-[18rem] overflow-auto">
         <a href={href} target="_blank" rel="noopener noreferrer">
           <h3 className="text-2xl font-semibold underline">{title}</h3>
           </a>
           <div
-          className= {`mt-2 leading-relaxed text-gray-700 dark:text-white/80 ${isExpanded ? "" : "truncate"}`} style={{maxHeight: isExpanded ? "none" : "3.9rem"}} 
+          className= {`mt-2 leading-relaxed text-gray-700 dark:text-white/80 ${isExpanded ? "" : "truncate"}`} style={{maxHeight: isExpanded ? "none" : "13rem"}} 
           
           dangerouslySetInnerHTML={{ __html: description }}
           />

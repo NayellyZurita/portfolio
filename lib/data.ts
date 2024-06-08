@@ -88,7 +88,7 @@ export const projectsData = [
     title: "Predicting Stock Prices with Machine Learning",
     description: `
     <p><strong>Summary</strong></p>
-    <p>In this project, I explored data science and finance, using advanced machine-learning techniques to predict stock prices. Through meticulous data collection, cleaning, and analysis, we uncover valuable insights hidden within historical stock price data.  Through meticulous data collection, cleaning, and analysis, I uncover valuable insights hidden within historical stock price data. By leveraging machine learning models such as ARIMA, LSTM, and linear regression, I seek to forecast future stock prices with accuracy and precision. This educational project demonstrates data science methodologies applied to financial data. Please note that the insights presented are for educational purposes only and should not be construed as financial advice.</p>
+    <p>In this project, I explored data science and finance, using advanced machine-learning techniques to predict stock prices. Through meticulous data collection, cleaning, and analysis, we uncover valuable insights hidden within historical stock price data. By leveraging machine learning models such as ARIMA, LSTM, and linear regression, I seek to forecast future stock prices with accuracy and precision. This educational project demonstrates data science methodologies applied to financial data. Please note that the insights presented are for educational purposes only and should not be construed as financial advice.</p>
     `,
     tags: ["Phyton", "APIs", "ARIMA", "LSTM"],
     image: FinanceImg,
