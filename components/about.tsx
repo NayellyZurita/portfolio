@@ -11,7 +11,7 @@ export default function About() {
   return (
     <motion.section
       ref={ref}
-      className="mb-28 max-w-[45rem] text-center leading-9 sm:mb-40 scroll-mt-28 text-lg"
+      className="mb-28 max-w-[80rem] text-center leading-9 sm:mb-40 scroll-mt-28 text-lg"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
@@ -23,15 +23,12 @@ export default function About() {
         <span className="font-large">Economics</span>, I decided to pursue a data science degree. {" "}
         <span className="font-large">my favorite part of</span>{" "}
         <span className="italic">working with data is transforming it into </span>
-        solutions for problem-solving situations. <span className="underline">Data</span> has
+        solutions for problem-solving situations. <span className="font-large">Data</span> has
         the potential to make a significant impact on society.
         {" "}
         <span className="font-large">
         Throughout my journey, I have gained proficiency in various programming languages,
-         including Java, Python, and SQL Server, as well as in data visualization tools like Tableau. 
-  
-        </span>
-         I'm seeking internship opportunities in data science{" "}
+         including Java, Python, and SQL Server, as well as in data visualization tools like Tableau. </span>I'm seeking internship opportunities in data science{" "}
         <span className="font-large">to develop my skills further</span> a and 
         apply my knowledge professionally.
       </p>
