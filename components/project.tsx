@@ -37,7 +37,7 @@ export default function Project({
             <h3 className="text-2xl font-semibold underline">{title}</h3>
           </a>
           <div
-            className="mb-25 mt-2 leading-relaxed text-gray-800 dark:text-white/70 justify-center"
+            className="mb-25 mt-2 leading-relaxed text-gray-800  dark:text-white/70 text-justify my-auto sm:mt-4 sm:mb-0"
             style={{ maxHeight: "none" }}
             dangerouslySetInnerHTML={{ __html: description }}
           />
