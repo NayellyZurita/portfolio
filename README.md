@@ -1,7 +1,7 @@
 # My Website
 
 This is the repository for my personal website built using modern web technologies. The website showcases my portfolio, projects, and provides a way to contact me.
-https://nayelly-portfolio.vercel.app/
+https://nayellyzurita.vercel.app/
 
 ## Technologies Used
 
