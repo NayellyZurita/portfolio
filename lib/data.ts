@@ -57,7 +57,7 @@ export const projectsData = [
     href: "https://github.com/NayellyZurita/real-estate.git",
     description: " This project uses Java and object-oriented programming. It is a simple real estate program that allows you to add, delete, and bid for properties.",
     tags: ["Java", "Object-oriented design", "Code structure", "Testing"],
-    images: [RealestateImg, RealestateImg], // Always an array
+    images: [RealestateImg, ], // Always an array
     linkSource: "Github",
     linkName: "View Code",
   },
@@ -78,7 +78,7 @@ export const projectsData = [
       </ul>
     `,
     tags: ["Python", "pandas", "NumPy", "matplotlib", "Scikit-learn"],
-    images: [TopCities, Fivetop], // Always an array
+    images: [TopCities, Fivetop,], // Always an array
     linkSource: "Google Colab",
     linkName: "View Notebook",
   },
@@ -89,7 +89,7 @@ export const projectsData = [
       <p>In this project, I explored data science and finance, using advanced machine-learning techniques to predict stock prices. Through meticulous data collection, cleaning, and analysis, I uncover valuable insights hidden within historical stock price data. By leveraging machine learning models such as ARIMA, LSTM, and linear regression, I seek to forecast future stock prices with accuracy and precision. This educational project demonstrates data science methodologies applied to financial data. Please note that the insights presented are for educational purposes only and should not be construed as financial advice.</p>
     `,
     tags: ["Python", "APIs", "ARIMA", "LSTM"],
-    images: [FinanceImg, FinanceImg], // Always an array
+    images: [FinanceImg, ], // Always an array
     href: "",
     linkSource: "Github",
     linkName: "View Code",
