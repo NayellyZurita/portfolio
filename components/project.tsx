@@ -21,8 +21,8 @@ export default function Project({
     target: ref,
     offset: ["0 1", "1.33 1"],
   });
-  const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
-  const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
+  const scaleProgess = 1;
+  const opacityProgess = 1;
 
   return (
     <motion.div
@@ -33,7 +33,7 @@ export default function Project({
       }}
       className="group mb-3 sm:mb-25 last:mb-0"
     >
-      <section className="bg-gray-100 max-w-[85rem] border border-black/5 rounded-lg overflow-hidden px-5 sm:px-8 sm:pr-10 sm:pl-10 sm:pt-10 sm:pb-7 transition dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
+      <section className="bg-gray-100 max-w-[85rem] border border-black/5 rounded-lg overflow-hidden px-5 sm:px-8 sm:pr-10 sm:pl-10 sm:pt-10 sm:pb-7 dark:text-white transition dark:bg-white/10 dark:hover:bg-white/20">
         <div className="flex flex-col h-full w-full">
           <h3 className="text-2xl font-semibold">{title}</h3>
           <div

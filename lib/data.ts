@@ -7,9 +7,10 @@ import TableauImg from "@/public/Tableau.png";
 import PythonImg from "@/public/Python.png";
 import SQLImg from "@/public/SQL.png";
 import FinanceImg from "@/public/finance.jpg";
-import RealestateImg from "@/public/realestate.jpg";
 import Fivetop from "@/public/fivetop.png"; 
 import TopCities from "@/public/topcities.png";
+import Realestate1 from "@/public/RealState2.png";
+import Realestate2 from "@/public/RealState3.png";
 
 export const links = [
   {
@@ -53,11 +54,14 @@ export const educationData = [
 
 export const projectsData = [
   {
-    title: "Real State with object-oriented programming",
-    href: "https://github.com/NayellyZurita/real-estate.git",
-    description: " This project uses Java and object-oriented programming. It is a simple real estate program that allows you to add, delete, and bid for properties.",
-    tags: ["Java", "Object-oriented design", "Code structure", "Testing"],
-    images: [RealestateImg, ], // Always an array
+    title: "Predicting Stock Prices with Machine Learning",
+    description: `
+      <p><strong>Summary</strong></p>
+      <p>In this project, I explored data science and finance, using machine-learning techniques to predict stock prices. Through meticulous data collection, cleaning, and analysis, I found valuable insights hidden within historical stock price data. By leveraging machine learning models such as LSTM, and linear regression, I seek to forecast stock prices with accuracy and precision. This educational project demonstrates data science methodologies applied to financial data. Please note that the insights presented are for educational purposes only and should not be construed as financial advice.</p>
+    `,
+    tags: ["Python", "APIs", "ARIMA", "LSTM"],
+    images: [FinanceImg, ], // Always an array
+    href: "",
     linkSource: "Github",
     linkName: "View Code",
   },
@@ -83,17 +87,16 @@ export const projectsData = [
     linkName: "View Notebook",
   },
   {
-    title: "Predicting Stock Prices with Machine Learning",
-    description: `
-      <p><strong>Summary</strong></p>
-      <p>In this project, I explored data science and finance, using machine-learning techniques to predict stock prices. Through meticulous data collection, cleaning, and analysis, I found valuable insights hidden within historical stock price data. By leveraging machine learning models such as LSTM, and linear regression, I seek to forecast stock prices with accuracy and precision. This educational project demonstrates data science methodologies applied to financial data. Please note that the insights presented are for educational purposes only and should not be construed as financial advice.</p>
-    `,
-    tags: ["Python", "APIs", "ARIMA", "LSTM"],
-    images: [FinanceImg, ], // Always an array
-    href: "",
+    title: "Real State with object-oriented programming",
+    href: "https://github.com/NayellyZurita/real-estate.git",
+    description: " This project uses Java and object-oriented programming. It is a simple real estate program that allows you to add, delete, and bid for properties.",
+    tags: ["Java", "Object-oriented design", "Code structure", "Testing"],
+    images: [Realestate1,Realestate2 ], // Always an array
     linkSource: "Github",
     linkName: "View Code",
   },
+ 
+  
 ] as const;
 
 export const skillsData = [
