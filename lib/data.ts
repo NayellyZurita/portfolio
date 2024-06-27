@@ -6,11 +6,12 @@ import JavaScriptImg from "@/public/javaScript.png";
 import TableauImg from "@/public/Tableau.png";
 import PythonImg from "@/public/Python.png";
 import SQLImg from "@/public/SQL.png";
-import FinanceImg from "@/public/finance.jpg";
 import Fivetop from "@/public/fivetop.png"; 
 import TopCities from "@/public/topcities.png";
 import Realestate1 from "@/public/RealState2.png";
 import Realestate2 from "@/public/RealState3.png";
+import LSTM from "@/public/lstm.png";
+import LinearReg from "@/public/linearreg.png";
 
 export const links = [
   {
@@ -60,7 +61,7 @@ export const projectsData = [
       <p>In this project, I explored data science and finance, using machine-learning techniques to predict stock prices. Through meticulous data collection, cleaning, and analysis, I found valuable insights hidden within historical stock price data. By leveraging machine learning models such as LSTM, and linear regression, I seek to forecast stock prices with accuracy and precision. This educational project demonstrates data science methodologies applied to financial data. Please note that the insights presented are for educational purposes only and should not be construed as financial advice.</p>
     `,
     tags: ["Python", "APIs", "ARIMA", "LSTM"],
-    images: [FinanceImg, ], // Always an array
+    images: [LSTM,LinearReg ], // Always an array
     href: "",
     linkSource: "Github",
     linkName: "View Code",
