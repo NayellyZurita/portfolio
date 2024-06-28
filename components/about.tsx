@@ -20,9 +20,9 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
        {" "}
-        <span className="font-large"></span>I'm pursuing a degree in Data Science to advance my passion for transforming data into actionable solutions. Data has the potential to impact society significantly, and I am dedicated to bringing insight and problem-solving.
-        Throughout my journey, I have gained proficiency in programming languages such as Java, Python, and SQL and data visualization tools like Tableau. I have also developed skills in machine learning, data analysis, and statistical modeling. Additionally, I am proficient in using Python libraries like Pandas, NumPy, Matplotlib and Scikit-learn.
-        I am actively seeking internship opportunities in data science to develop my skills further and apply my knowledge professionally.
+        <span className="font-large"></span>I'm pursuing a degree in Data Science to advance my passion for transforming data into actionable solutions. Data has the potential to impact society significantly, and I love bringing insight and problem-solving.
+ Throughout my journey, I have gained proficiency in programming languages like Java, Python, and SQL and data visualization tools like Tableau. I have also developed skills in machine learning, data analysis, and statistical modeling. Additionally, I am proficient in using Python libraries like Pandas, NumPy, Matplotlib, and Scikit-learn.
+ I am actively seeking internship opportunities in data science to develop my skills further and apply my knowledge professionally.
       </p>
       <p>
         <span className="italic">When I'm not working on projects</span>, I enjoy spending

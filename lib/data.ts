@@ -1,11 +1,5 @@
 import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
-import JavaImg from "@/public/java.png";
-import ExcelImg from "@/public/excel.png";
-import JavaScriptImg from "@/public/javaScript.png";
-import TableauImg from "@/public/Tableau.png";
-import PythonImg from "@/public/Python.png";
-import SQLImg from "@/public/SQL.png";
 import Fivetop from "@/public/fivetop.png"; 
 import TopCities from "@/public/topcities.png";
 import Realestate1 from "@/public/RealState2.png";
@@ -55,7 +49,7 @@ export const educationData = [
 
 export const projectsData = [
   {
-    title: "Predicting Stock Prices with Machine Learning",
+    title: "Predicting ADBE Stock Prices with Machine Learning",
     description: `
       <p><strong>Summary</strong></p>
       <p>In this project, I explored data science and finance, using machine-learning techniques to predict stock prices. Through meticulous data collection, cleaning, and analysis, I found valuable insights hidden within historical stock price data. By leveraging machine learning models such as LSTM, and linear regression, I seek to forecast stock prices with accuracy and precision. This educational project demonstrates data science methodologies applied to financial data. Please note that the insights presented are for educational purposes only and should not be construed as financial advice.</p>
