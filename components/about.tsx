@@ -11,7 +11,7 @@ export default function About() {
   return (
     <motion.section
       ref={ref}
-      className="mb-28 max-w-[80rem] text-center leading-9 sm:mb-40 scroll-mt-28 text-xl"
+      className="mb-28 max-w-[80rem] text-center leading-9 sm:mb-40 scroll-mt-28 text-2xl"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
@@ -19,26 +19,17 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After earning  my degree in{" "}
-        <span className="font-large">Economics</span>, I decided to pursue a data science degree. {" "}
-        <span className="font-large">my favorite part of</span>{" "}
-        <span className="italic">working with data is transforming it into </span>
-        solutions for problem-solving situations. <span className="font-large">Data</span> has
-        the potential to make a significant impact on society.
-        {" "}
-        <span className="font-large">
-        Throughout my journey, I have gained proficiency in various programming languages,
-         including Java, Python, and SQL Server, as well as in data visualization tools like Tableau. </span>I'm seeking internship opportunities in data science{" "}
-        <span className="font-large">to develop my skills further</span> a and 
-        apply my knowledge professionally.
+       {" "}
+        <span className="font-large"></span>I'm pursuing a degree in Data Science to advance my passion for transforming data into actionable solutions. Data has the potential to impact society significantly, and I am dedicated to bringing insight and problem-solving.
+        Throughout my journey, I have gained proficiency in programming languages such as Java, Python, and SQL and data visualization tools like Tableau. I have also developed skills in machine learning, data analysis, and statistical modeling. Additionally, I am proficient in using Python libraries like Pandas, NumPy, Matplotlib and Scikit-learn.
+        I am actively seeking internship opportunities in data science to develop my skills further and apply my knowledge professionally.
       </p>
-
       <p>
         <span className="italic">When I'm not working on projects</span>, I enjoy spending
-         time outdoors. I like running, hiking,  {" "}
-        <span className="font-large">and learning new sports.</span>  I also value time 
+        time outdoors. I like running, hiking, {" "}
+        <span className="font-large">and learning new sports.</span> I also value time
         with my {" "}
-        <span className="font-large"> family </span> and friends.
+        <span className="font-large">family</span> and friends.
       </p>
     </motion.section>
   );

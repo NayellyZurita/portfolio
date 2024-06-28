@@ -101,10 +101,32 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  { image: JavaImg },
-  { image: ExcelImg },
-  { image: JavaScriptImg },
-  { image: TableauImg },
-  { image: PythonImg },
-  { image: SQLImg },
+  {
+    category: "Programming Languages:",
+    skills: ["Python", "Java", "JavaScript", "SQL"]
+  },
+  {
+    category: "Data Analysis and Statistics:",
+    skills: ["Excel", "Tableau", "Machine Learning", "Linear Regression"]
+  },
+  {
+    category: "Frameworks and Tools:",
+    skills: ["React", "Next.js", "Node.js"]
+  },
+  {
+    category: "Python Libraries:",
+    skills: ["Pandas", "NumPy", "Matplotlib", "Scikit-learn", "TensorFlow", "Keras"]
+  },
+  {
+    category: "Problem-Solving Skills:",
+    skills: ["Data Structures", "Algorithms", "Object-Oriented Design", "Git and Version Control", "Testing and Debugging"]
+  },
+  {
+    category: "Soft Skills:",
+    skills: ["Communication", "Teamwork", "Problem-Solving"]
+  },
+  {
+    category: "Languages:",
+    skills: ["English", "Spanish"]
+  }
 ] as const;
