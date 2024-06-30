@@ -37,7 +37,7 @@ export default function Project({
         <div className="flex flex-col h-full w-full">
           <h3 className="text-2xl font-semibold">{title}</h3>
           <div
-            className="leading-relaxed text-gray-800 dark:text-white/70 text-xl text-justify mt-2 mb-4 paragraph-spacing"
+            className="leading-relaxed text-gray-800 dark:text-white/70 text-lg text-justify mt-2 mb-4 paragraph-spacing"
             dangerouslySetInnerHTML={{ __html: description }}
           />
           <div className="flex flex-full gap-4 mb-6">
