@@ -62,7 +62,7 @@ export default function Intro() {
       >
         <span className="font">Hello, I'm Nayelly Zurita, a Data Scientist. </span> 
         <br />
-        <span className = "font">This website showcases my projects and the results I've achieved.</span>{" "}
+        <span className = "font">This website shows my projects and the results I've achieved.</span>{" "}
     
       </motion.h1>
 
