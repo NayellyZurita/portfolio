@@ -51,10 +51,10 @@ export const educationData = [
 
 export const projectsData = [
   {
-    title: "Comprehensive Fraud Detection Analysis and Trend Visualization",
+    title: "Fraud Detection Analysis and Trend Visualization",
     description: `
     <p><strong>Summary</strong></p>
-     <p>Insurance claims are critical for providing financial support to policyholders in need, ensuring stability and trust in the insurance industry. However, fraudulent claims can significantly undermine this trust and lead to substantial monetary losses. In this project, Comprehensive Fraud Detection Analysis and Trend Visualization strives to identify and mitigate fraudulent activities in insurance claims through extensive data analysis and visualization.</p>
+     <p>Insurance claims are critical for providing financial support to policyholders in need, ensuring stability and trust in the insurance industry. However, fraudulent claims can significantly undermine this trust and lead to substantial monetary losses. In this project, Fraud Detection Analysis and Trend Visualization strives to identify and mitigate fraudulent activities in insurance claims through extensive data analysis and visualization.</p>
 <p>The purpose of this project is to gain insights to identify suspicious transactions. The project uses an SQL server to query and extract significant data to detect fraud. Finally, Tableau is used to visualize the data, making identifying and communicating potential fraud patterns easier.</p>
 <p>This project highlights the importance of robust data analysis and visualization in detecting and preventing insurance fraud, ultimately protecting insurance companies and their policyholders.</p>
 
