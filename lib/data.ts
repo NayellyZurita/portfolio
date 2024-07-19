@@ -6,6 +6,8 @@ import Realestate1 from "@/public/RealState2.png";
 import Realestate2 from "@/public/RealState3.png";
 import LSTM from "@/public/lstm.png";
 import LinearReg from "@/public/linearreg.png";
+import FraudDet from "@/public/TableauSQL.png";
+import FraudDet2 from "@/public/TableauSQL1.png";
 
 export const links = [
   {
@@ -49,10 +51,25 @@ export const educationData = [
 
 export const projectsData = [
   {
+    title: "Comprehensive Fraud Detection Analysis and Trend Visualization",
+    description: `
+    <p><strong>Summary</strong></p>
+     <p>Insurance claims are critical for providing financial support to policyholders in need, ensuring stability and trust in the insurance industry. However, fraudulent claims can significantly undermine this trust and lead to substantial monetary losses. In this project, Comprehensive Fraud Detection Analysis and Trend Visualization strives to identify and mitigate fraudulent activities in insurance claims through extensive data analysis and visualization.</p>
+<p>The purpose of this project is to gain insights to identify suspicious transactions. The project uses an SQL server to query and extract significant data to detect fraud. Finally, Tableau is used to visualize the data, making identifying and communicating potential fraud patterns easier.</p>
+<p>This project highlights the importance of robust data analysis and visualization in detecting and preventing insurance fraud, ultimately protecting insurance companies and their policyholders.</p>
+
+    `,
+    tags: ["SQL Server", "Tableau", ],
+    images: [FraudDet, FraudDet2 ], // Always an array
+    href: "https://github.com/NayellyZurita/Fraud_detection.git",
+    linkSource: "Github",
+    linkName: "View Code",
+  },
+  {
     title: "Predicting ADBE Stock Prices with Machine Learning",
     description: `
       <p><strong>Summary</strong></p>
-      <p>In this project, I explored data science and finance, using machine-learning techniques to predict stock prices. Through meticulous data collection, cleaning, and analysis, I found valuable insights hidden within historical stock price data. By leveraging machine learning models such as LSTM, and linear regression, I seek to forecast stock prices with accuracy and precision. This educational project demonstrates data science methodologies applied to financial data. Please note that the insights presented are for educational purposes only and should not be construed as financial advice.</p>
+      <p>I explored data science and finance, using machine-learning techniques to predict stock prices. Through meticulous data collection, cleaning, and analysis, I found valuable insights hidden within historical stock price data. By leveraging machine learning models such as LSTM, and linear regression, I seek to forecast stock prices with accuracy and precision. This educational project demonstrates data science methodologies applied to financial data. Please note that the insights presented are for educational purposes only and should not be construed as financial advice.</p>
     `,
     tags: ["Python", "APIs", "ARIMA", "LSTM"],
     images: [LSTM,LinearReg ], // Always an array
