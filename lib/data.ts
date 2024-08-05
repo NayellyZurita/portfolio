@@ -8,7 +8,6 @@ import LSTM from "@/public/lstm.png";
 import LinearReg from "@/public/linearreg.png";
 import FraudDet from "@/public/TableauSQL.png";
 import FraudDet2 from "@/public/TableauSQL1.png";
-import { link } from "fs";
 
 export const links = [
   {
@@ -83,8 +82,8 @@ export const projectsData = [
     images: [LSTM,LinearReg ], // Always an array
     links: [
       {
-        href: "",
-        linkName: "View Code"
+        href: "/stockmarketprices.html",
+        linkName: "View Jupyter Notebook Code"
       }
 
     ]
