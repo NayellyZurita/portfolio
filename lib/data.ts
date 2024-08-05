@@ -8,6 +8,7 @@ import LSTM from "@/public/lstm.png";
 import LinearReg from "@/public/linearreg.png";
 import FraudDet from "@/public/TableauSQL.png";
 import FraudDet2 from "@/public/TableauSQL1.png";
+import { link } from "fs";
 
 export const links = [
   {
@@ -61,9 +62,16 @@ export const projectsData = [
     `,
     tags: ["SQL Server", "Tableau", ],
     images: [FraudDet, FraudDet2 ], // Always an array
-    href: "https://github.com/NayellyZurita/Fraud_detection.git",
-    linkSource: "Github",
-    linkName: "View Code",
+    links: [
+      {
+        href: "https://github.com/NayellyZurita/Fraud_detection.git",
+        linkName: "View Github Code"
+      },
+      {
+        href: "https://public.tableau.com/shared/WQNC8D72D?:display_count=n&:origin=viz_share_link",
+        linkName: "View Tableau Dashboard"
+      }
+    ] 
   },
   {
     title: "Predicting ADBE Stock Prices with Machine Learning",
@@ -73,13 +81,17 @@ export const projectsData = [
     `,
     tags: ["Python", "APIs", "ARIMA", "LSTM"],
     images: [LSTM,LinearReg ], // Always an array
-    href: "",
-    linkSource: "Github",
-    linkName: "View Code",
+    links: [
+      {
+        href: "",
+        linkName: "View Code"
+      }
+
+    ]
+    
   },
   {
     title: "Machine Learning: Using Python to Find Your Next Business Opportunity",
-    href: "https://colab.research.google.com/drive/1U9Niz6zizAta-QLRYenXu3naXa0ccY-d?usp=sharing",
     description: `
       <p><strong>Summary</strong></p>
       <p>This project leverages the power of machine learning to analyze market data and find the top five places to establish a coffee business in California. Additionally, it predicts the price of a latte based on demographic data from these prime locations. This project provides a comprehensive approach to strategic business planning by integrating advanced data analysis and machine learning techniques.</p>
@@ -95,17 +107,24 @@ export const projectsData = [
     `,
     tags: ["Python", "pandas", "NumPy", "matplotlib", "Scikit-learn"],
     images: [TopCities, Fivetop,], // Always an array
-    linkSource: "Google Colab",
-    linkName: "View Notebook",
+    links: [
+      {
+        href: "https://colab.research.google.com/drive/1U9Niz6zizAta-QLRYenXu3naXa0ccY-d?usp=sharing",
+        linkName: "View Colab Code"
+      }
+    ]
   },
   {
     title: "Real State with object-oriented programming",
-    href: "https://github.com/NayellyZurita/real-estate.git",
     description: " This project uses Java and object-oriented programming. It is a simple real estate program that allows you to add, delete, and bid for properties.",
     tags: ["Java", "Object-oriented design", "Code structure", "Testing"],
     images: [Realestate1,Realestate2 ], // Always an array
-    linkSource: "Github",
-    linkName: "View Code",
+    links: [
+      {
+        href: "https://github.com/NayellyZurita/real-estate.git",
+        linkName: "View Github Code"
+      } 
+    ]
   },
  
   

@@ -3,6 +3,9 @@
 		{
 			"name": "portfolio",
 			"path": "."
+		},
+		{
+			"path": ".."
 		}
 	],
 	"settings": {}

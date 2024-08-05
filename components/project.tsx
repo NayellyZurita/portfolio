@@ -3,19 +3,17 @@
 import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion, useScroll } from "framer-motion";
 
 type ProjectProps = (typeof projectsData)[number];
 
 export default function Project({
   title,
-  href,
   description,
   tags,
   images,
-  linkSource,
-  linkName,
-}: ProjectProps & { href: string }) {
+  links,  // Updated to use links array
+}: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -55,14 +53,20 @@ export default function Project({
               </div>
             ))}
           </div>
-          <a
-            href={href}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 hover:underline mt-4"
-          >
-            {linkName} ({linkSource})
-          </a>
+          <div className="mt-4">
+            {Array.isArray(links) && links.map((link, index) => (
+              <p key={index}>
+                <a
+                  href={link.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:underline"
+                >
+                  {link.linkName}
+                </a>
+              </p>
+            ))}
+          </div>
           <ul className="flex flex-wrap mt-4 gap-2">
             {tags.map((tag, index) => (
               <li
