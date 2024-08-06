@@ -108,8 +108,8 @@ export const projectsData = [
     images: [TopCities, Fivetop,], // Always an array
     links: [
       {
-        href: "https://colab.research.google.com/drive/1U9Niz6zizAta-QLRYenXu3naXa0ccY-d?usp=sharing",
-        linkName: "View Colab Code"
+        href: "/MachineLearning.html",
+        linkName: "View Jupyter Notebook Code"
       }
     ]
   },
