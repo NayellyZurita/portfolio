@@ -108,7 +108,7 @@ export const projectsData = [
     images: [TopCities, Fivetop,], // Always an array
     links: [
       {
-        href: "/MachineLearning.html",
+        href: "/MachinneLearning.html",
         linkName: "View Jupyter Notebook Code"
       }
     ]
